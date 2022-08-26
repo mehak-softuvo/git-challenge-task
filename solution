@@ -1,0 +1,9 @@
+1.git clone original-repo-url
+2. git checkout add-echo
+3. git rebase --onto master HEAD~1
+4. git checkout add-reverse
+5. git rebase --onto add-echo HEAD~1
+6. Resolve conflicts and add then rebase if occurs
+7. git checkout master
+8. git merge add-reverse
+ then push code to repo.
